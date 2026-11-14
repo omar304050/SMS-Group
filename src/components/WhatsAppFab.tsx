@@ -2,7 +2,7 @@ export function WhatsAppFab() {
   return (
     <a
       className="fixed bottom-4 start-4 z-[100] inline-flex size-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_10px_24px_rgba(37,211,102,0.32)] no-underline transition-transform hover:scale-105"
-      href="https://wa.me/01152243404"
+      href="https://wa.me/201152243404"
       target="_blank"
       rel="noreferrer"
       aria-label="تواصل عبر واتساب"
