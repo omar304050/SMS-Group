@@ -26,6 +26,15 @@ export function About() {
             alt="SMS Interior Design — مساحتك رسالتنا"
             className="block w-full object-cover object-center"
           />
+          <div className="flex flex-col gap-2 bg-[#f2ebe1] px-4 py-3.5 text-sm text-ink wide:flex-row wide:items-center wide:justify-between wide:px-5">
+            <p>
+              م. سعيد السعدني ·{" "}
+              <a className="font-semibold no-underline hover:text-bronze" href="https://wa.me/201152243404" target="_blank" rel="noreferrer">
+                01152243404
+              </a>
+            </p>
+            <p className="font-medium">Your Space. Our Message.</p>
+          </div>
         </div>
 
         <div className="mt-5 grid gap-3 wide:grid-cols-4">
@@ -35,16 +44,6 @@ export function About() {
               <p className="mt-1 text-sm font-semibold text-ink">{service.ar}</p>
             </div>
           ))}
-        </div>
-
-        <div className="mt-6 flex flex-col gap-2 text-sm text-muted wide:flex-row wide:items-center wide:justify-between">
-          <p>
-            م. سعيد السعدني ·{" "}
-            <a className="font-semibold text-ink no-underline hover:text-bronze" href="https://wa.me/201152243404" target="_blank" rel="noreferrer">
-              01152243404
-            </a>
-          </p>
-          <p className="font-medium text-ink">Your Space. Our Message.</p>
         </div>
       </div>
     </section>

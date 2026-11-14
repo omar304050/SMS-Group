@@ -86,14 +86,14 @@ export function Hero() {
             </p>
             <div className="hero-slide-copy mt-6 flex flex-wrap gap-2.5">
               <a
-                className="inline-flex min-h-10 items-center gap-2 rounded-full bg-bronze px-4 text-sm font-semibold text-cream no-underline transition-colors hover:bg-[#a57d54]"
+                className="inline-flex min-h-10 items-center gap-2 rounded-none bg-bronze px-4 text-sm font-semibold text-cream no-underline transition-colors hover:bg-[#a57d54]"
                 href={slide.primary.href}
               >
                 {slide.primary.label}
                 <ArrowIcon />
               </a>
               <a
-                className="inline-flex min-h-10 items-center gap-2 rounded-full border border-cream/35 bg-cream/10 px-4 text-sm font-semibold text-cream no-underline backdrop-blur-sm transition-colors hover:bg-cream/18"
+                className="inline-flex min-h-10 items-center gap-2 rounded-none border border-cream/35 bg-cream/10 px-4 text-sm font-semibold text-cream no-underline backdrop-blur-sm transition-colors hover:bg-cream/18"
                 href={slide.secondary.href}
               >
                 {slide.secondary.label}

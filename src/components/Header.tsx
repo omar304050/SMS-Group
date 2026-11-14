@@ -72,7 +72,7 @@ export function Header() {
 
         <div className="ms-auto flex items-center gap-2">
           <Link
-            className={`hidden min-h-9 items-center justify-center rounded-full px-3.5 text-xs font-semibold no-underline wide:inline-flex ${
+            className={`hidden min-h-9 items-center justify-center  px-3.5 text-xs font-semibold no-underline wide:inline-flex ${
               overHero ? "bg-bronze/85 text-cream hover:bg-bronze" : "bg-bronze text-cream hover:bg-[#a57d54]"
             }`}
             to="/#contact"
